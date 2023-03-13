@@ -60,4 +60,33 @@ body {
     background-color: dimgray;
     display: block;
     width: 263px;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+.item-pic {
+    width: 100%;
+}
+
+.txt-box {
+    padding: 10px;
+}
+
+.txt-desc {
+    text-align: center;
+    color: rgb(245, 241, 241);
+    font-size: 20px;
+    text-transform: uppercase;
+    
+}
+
+.item-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item hover .txt-box {
+    background-color: aqua;
+    color: darkcyan;
 }
