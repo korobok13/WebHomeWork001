@@ -86,7 +86,10 @@ body {
     justify-content: space-between;
 }
 
-.item hover .txt-box {
-    background-color: aqua;
-    color: darkcyan;
+.item:hover .txt-box {
+    background-color: blueviolet;
+}
+
+.item:hover .txt-desc {
+    color: gold;
 }
