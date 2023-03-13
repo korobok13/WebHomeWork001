@@ -6,3 +6,18 @@
 body {
     background-color: rgb(96, 238, 99);
 }
+
+.title {
+    color: rgb(253, 253, 250);
+    text-align: center;
+}
+
+.header {
+    width: 100%;
+    background-color: darkgreen;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
