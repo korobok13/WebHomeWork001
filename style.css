@@ -10,16 +10,39 @@ body {
 .title {
     color: rgb(253, 253, 250);
     text-align: center;
+    font-size: 50px;
+}
+
+.title_1 {
+    color: rgb(253, 253, 250);
+    text-align: center;
+    font-size: 22px;
+    color:gold;
+}
+
+.title_2 {
+    color: rgb(253, 253, 250);
+    text-align: center;
+    font-size: 22px;
+    color:gold;
+    margin-bottom: 20px;
 }
 
 .header {
     width: 100%;
+    height: 140px;
     background-color: darkgreen;
 }
 
 .container {
     width: 1200px;
     margin: 0 auto;
+}
+
+.container_1 {
+    width: 400px;
+    margin:0 auto;
+    border-inline: 20px solid gold;
 }
 
 .nav {
@@ -29,7 +52,7 @@ body {
 .nav-link {
     width: 100px;
     height: 40px;
-    color: darkgreen;
+    color:gold;
     background-color: blueviolet;
     display: block;
     text-align: center;
@@ -53,6 +76,10 @@ body {
 }
 
 .item-sec {
+    margin-top: 80px;
+}
+
+.element {
     margin-top: 80px;
 }
 
